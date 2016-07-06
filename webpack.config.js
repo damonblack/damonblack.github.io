@@ -1,16 +1,22 @@
 var config = {
-  context: __dirname + "/src/client/app",
-  entry: "./index.jsx",
+  context: __dirname + '/src/client/app',
+  entry: './index.jsx',
   output: {
-    filename: "bundle.js",
-    path: __dirname + "/bin",
+    filename: 'bundle.js',
+    path: __dirname + '/bin',
+  },
+  resolve: {
+    extensions: ['', '.js', '.jsx']
   },
   module: {
     loaders: [
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
-        loaders: ["babel-loader"],
+        loader: 'babel',
+        query: {
+          presets: ['es2015', 'stage-0', 'react']//, 'react-hmre']
+        },
       }
     ],
   },
