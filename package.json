@@ -1,0 +1,27 @@
+{
+  "name": "damonblack.github.io",
+  "version": "1.0.0",
+  "description": "Homepage at Github",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damonblack/damonblack.github.io.git"
+  },
+  "keywords": [
+    "react",
+    "sandbox"
+  ],
+  "author": "Damon Black",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damonblack/damonblack.github.io/issues"
+  },
+  "homepage": "https://github.com/damonblack/damonblack.github.io#readme",
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  },
+  "private": true
+}
