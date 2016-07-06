@@ -4,7 +4,16 @@ var config = {
   output: {
     filename: "bundle.js",
     path: __dirname + "/bin",
-  }
+  },
+  module: {
+    loaders: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loaders: ["babel-loader"],
+      }
+    ],
+  },
 };
 
 module.exports = config;

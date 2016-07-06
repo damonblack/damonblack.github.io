@@ -21,7 +21,12 @@
   },
   "homepage": "https://github.com/damonblack/damonblack.github.io#readme",
   "devDependencies": {
+    "babel-loader": "^6.2.4",
     "webpack": "^1.13.1"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "babel-core": "^6.10.4",
+    "react": "^15.2.0"
+  }
 }
