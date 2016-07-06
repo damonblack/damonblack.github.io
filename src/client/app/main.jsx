@@ -4,7 +4,7 @@ export default React.createClass({
   render: () => {
     return (
       <div>
-        <h1>WTF?</h1>
+        <h1>Hello World!</h1>
       </div>
     )
   }
