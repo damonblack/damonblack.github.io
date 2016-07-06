@@ -3,7 +3,7 @@ var config = {
   entry: "./index.jsx",
   output: {
     filename: "bundle.js",
-    path: __dirname + "/src/client/public",
+    path: __dirname + "/bin",
   }
 };
 
