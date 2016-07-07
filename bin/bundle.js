@@ -20981,7 +20981,7 @@
 /* 170 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -20994,16 +20994,28 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	exports.default = _react2.default.createClass({
-	  displayName: 'main',
+	  displayName: "main",
 	
 	  render: function render() {
+	    var data = ["tragedy", "drama", "comedy"];
 	    return _react2.default.createElement(
-	      'div',
+	      "div",
 	      null,
 	      _react2.default.createElement(
-	        'h1',
+	        "h1",
 	        null,
-	        'Hello World!'
+	        "Hello World!"
+	      ),
+	      _react2.default.createElement(
+	        "ul",
+	        null,
+	        data.map(function (datum) {
+	          return _react2.default.createElement(
+	            "li",
+	            null,
+	            datum
+	          );
+	        })
 	      )
 	    );
 	  }
