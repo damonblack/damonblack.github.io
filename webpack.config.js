@@ -1,6 +1,6 @@
 console.log('loading webpack.config.js');
 var config = {
-  context: __dirname + '/src/client/app',
+  context: __dirname + '/src',
   entry: './index.jsx',
   output: {
     filename: 'bundle.js',
