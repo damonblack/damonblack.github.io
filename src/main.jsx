@@ -3,9 +3,9 @@ import React from 'react';
 export default React.createClass({
   render: () => {
     let data = [
-      "tragedy",
-      "drama",
-      "comedy"
+      "Tragedy",
+      "Drama",
+      "Comedy"
     ];
     return (
       <div>
