@@ -25785,6 +25785,11 @@
 	              'Play'
 	            )
 	          ),
+	          _react2.default.createElement(
+	            'span',
+	            { className: styles.label },
+	            'Click map to add/remove cells'
+	          ),
 	          _react2.default.createElement('canvas', { ref: 'cellImage', width: '5', height: '5', style: { display: 'none' } })
 	        ),
 	        _react2.default.createElement('canvas', { ref: 'universe', onClick: this.canvasClicked, width: window.innerWidth, height: window.innerHeight })
