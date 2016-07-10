@@ -170,12 +170,20 @@ table {
 
 .app__controls___vqhHa {
   color: white;
+  padding: 10px;
   background-color: black;
 }
 
 .app__label___3D3_c {
-  width: 100px;
+  width: 120px;
+  float: left;
   margin-left: 30px;
+}
+
+.app__hint___2ch6u {
+  width: 300px;
+  float: left;
+  margin-left: 40px;
 }
 
 .app__active___1hacu {

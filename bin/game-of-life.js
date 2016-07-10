@@ -115,7 +115,7 @@
 	      return _react2.default.createElement(
 	        _reactRedux.Provider,
 	        { store: store },
-	        _react2.default.createElement(_GameOfLife.GameOfLifeContainer, { gameWidth: window.innerWidth / 16, gameHeight: window.innerHeight / 16 })
+	        _react2.default.createElement(_GameOfLife.GameOfLifeContainer, { gameWidth: window.innerWidth, gameHeight: window.innerHeight - 50 })
 	      );
 	    }
 	  }]);
@@ -25660,13 +25660,10 @@
 	    value: function componentDidMount() {
 	      var cellContext = this.refs.cellImage.getContext('2d');
 	      cellContext.fillStyle = 'white';
-	      cellContext.fillRect(0, 0, 5, 5);
+	      cellContext.fillRect(0, 0, 6, 6);
 
-	      var ORIGX = Math.floor(this.props.gameWidth);
-	      var ORIGY = Math.floor(this.props.gameHeight);
-
-	      console.log(ORIGX);
-	      console.log(ORIGY);
+	      var ORIGX = Math.floor(this.props.gameWidth / 16) - 15;
+	      var ORIGY = Math.floor(this.props.gameHeight / 16) - 8;
 
 	      var INIT_CELLS = [[ORIGX, ORIGY + 2], [ORIGX + 1, ORIGY + 2], [ORIGX + 3, ORIGY + 1], [ORIGX + 4, ORIGY + 2], [ORIGX + 5, ORIGY + 2], [ORIGX + 6, ORIGY + 2], [ORIGX + 1, ORIGY]];
 
@@ -25732,6 +25729,8 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
+	      var _this2 = this;
+
 	      var universe = this.refs.universe;
 	      var cellImage = this.refs.cellImage;
 	      var cells = this.props.cells;
@@ -25739,7 +25738,7 @@
 	      if (universe && cellImage && cells) {
 	        (function () {
 	          var universeContext = universe.getContext('2d');
-	          universeContext.clearRect(0, 0, window.innerWidth, window.innerHeight);
+	          universeContext.clearRect(0, 0, _this2.props.gameWidth, _this2.props.gameHeight);
 
 	          cells.forEach(function (cell) {
 	            universeContext.drawImage(cellImage, cell.get(0) * 8, cell.get(1) * 8);
@@ -25756,16 +25755,33 @@
 	          'div',
 	          { className: styles.controls },
 	          _react2.default.createElement(
-	            'span',
+	            'div',
 	            { className: styles.label },
-	            'Population: ',
-	            this.props.cells.count()
+	            _react2.default.createElement(
+	              'span',
+	              null,
+	              'Population: ',
+	              this.props.cells.count()
+	            )
 	          ),
 	          _react2.default.createElement(
-	            'span',
+	            'div',
 	            { className: styles.label },
-	            'Generation: ',
-	            this.props.generation
+	            _react2.default.createElement(
+	              'span',
+	              null,
+	              'Generation: ',
+	              this.props.generation
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: styles.hint },
+	            _react2.default.createElement(
+	              'span',
+	              null,
+	              'Click map to add/remove cells'
+	            )
 	          ),
 	          _react2.default.createElement(
 	            'div',
@@ -25785,14 +25801,9 @@
 	              'Play'
 	            )
 	          ),
-	          _react2.default.createElement(
-	            'span',
-	            { className: styles.label },
-	            'Click map to add/remove cells'
-	          ),
-	          _react2.default.createElement('canvas', { ref: 'cellImage', width: '5', height: '5', style: { display: 'none' } })
+	          _react2.default.createElement('canvas', { ref: 'cellImage', width: '6', height: '6', style: { display: 'none' } })
 	        ),
-	        _react2.default.createElement('canvas', { ref: 'universe', onClick: this.canvasClicked, width: window.innerWidth, height: window.innerHeight })
+	        _react2.default.createElement('canvas', { ref: 'universe', onClick: this.canvasClicked, width: this.props.gameWidth, height: this.props.gameHeight })
 	      );
 	    }
 	  }]);
@@ -42301,7 +42312,7 @@
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"controls":"app__controls___vqhHa","label":"app__label___3D3_c","active":"app__active___1hacu","inactive":"app__inactive___2rA1a","buttons":"app__buttons___rGvqK"};
+	module.exports = {"controls":"app__controls___vqhHa","label":"app__label___3D3_c","hint":"app__hint___2ch6u","active":"app__active___1hacu","inactive":"app__inactive___2rA1a","buttons":"app__buttons___rGvqK"};
 
 /***/ },
 /* 183 */
