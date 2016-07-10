@@ -4,6 +4,5 @@ title:  "Welcome to my website!"
 date:   2016-07-09 14:07:29 -0400
 categories: jekyll update
 ---
-Initial post. I should say something. Something inspiring!
 
-Uh.... I got nothin'.
+This will be my new homebase for the forseeable future. 
