@@ -180,8 +180,14 @@
     list-style: none;
 
     > li {
+        padding: 10px;
+        background-color: #DDDDDD;
         margin-bottom: $spacing-unit;
+        > p {
+            font-style: italic;
+        }
     }
+
 }
 
 .post-meta {
