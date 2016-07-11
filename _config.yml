@@ -1,7 +1,7 @@
 title: Damon Black
 email: black.damon@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  "It is easier to fool a man, than to convince him he's been fooled"
+  "It is easier to fool people than to convince them they've been fooled" -- Mark Twain
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://damonblack.com" # the base hostname & protocol for your site
 github_username:  damonblack
