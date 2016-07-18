@@ -11,7 +11,7 @@ least consistent) practices. For the most, I agree with the consensus that
 it's a good thing.
 
 But I think some developers have taken this mantra to heart, and see it as 
-an excuse to 'opinionated' in their own work. This works ok as long as everyone 
+an excuse to be 'opinionated' in their own work. This works ok as long as everyone 
 on a given project is of a simliar opinion. But it breaks down when they're not. 
 And they hardly ever are.
 

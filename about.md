@@ -1,10 +1,4 @@
----
-layout: page
-title: About
-permalink: /about/
----
-
-### Damon Black  - Software Developer
+### Software Developer
 
 I derive deep personal satisfaction from writing clean code, code that expresses intent in the clearest, simplest way possible and points toward its potential rather than obfuscating its design.
 
