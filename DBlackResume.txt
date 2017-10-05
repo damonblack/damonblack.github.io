@@ -4,16 +4,14 @@ Damon Black  - Software Developer
 I derive deep personal satisfaction from writing clean code, code that expresses intent in the clearest, simplest way possible and points toward its potential rather than obfuscating its design.
 
 
-
 SKILLS
 
 Programming Languages: JavaScript, Ruby, Elixir, SQL, Java, C#, C/C++
 Databases: Postgres, MySQL, SQL Server, ActiveRecord, Hibernate
-Operating Systems: Unix/Linux, Microsoft Windows XP & Vista
+Operating Systems: Unix/Linux, OSX, Windows
 Development Tools: VIM/Tmux, git, Jetbrains tools, Visual Code
 Web Technologies: React.js (Flux, Redux, Relay, etc..), Phoenix
 Others: Jasmine, TestUnit, Mocha, Ant, Enzyme, RSpec
-
 
 
 PROFESSIONAL EXPERIENCE
