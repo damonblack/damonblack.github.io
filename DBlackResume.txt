@@ -7,11 +7,11 @@ I derive deep personal satisfaction from writing clean code, code that expresses
 
 SKILLS
 
-Programming Languages: Ruby, JavaScript, SQL, Java, C#, C/C++
-Databases: Postgres, MySQL, SQL Server, Ruby ActiveRecord, Hibernate
+Programming Languages: JavaScript, Ruby, Elixir, SQL, Java, C#, C/C++
+Databases: Postgres, MySQL, SQL Server, ActiveRecord, Hibernate
 Operating Systems: Unix/Linux, Microsoft Windows XP & Vista
 Development Tools: VIM/Tmux, git, Jetbrains tools, Visual Code
-Web Technologies: React.js (Flux, Redux, Relay, etc..), Ruby on Rails, Java/Spring/Velocity, RESTful Webservices
+Web Technologies: React.js (Flux, Redux, Relay, etc..), Phoenix
 Others: Jasmine, TestUnit, Mocha, Ant, Enzyme, RSpec
 
 
