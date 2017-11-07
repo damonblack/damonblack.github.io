@@ -11,7 +11,7 @@ Databases: Postgres, MySQL, ActiveRecord, MongoDb
 Operating Systems: Unix/Linux, OSX, Windows
 Development Tools: VIM/Tmux, git, Jetbrains tools, Visual Code
 Web Technologies: React.js (Flux, Redux, Relay, etc..), Phoenix
-Others: Jasmine, TestUnit, Mocha, Ant, Enzyme, RSpec
+Others: Jest, Jasmine, Mocha, Enzyme, RSpec
 
 
 PROFESSIONAL EXPERIENCE
